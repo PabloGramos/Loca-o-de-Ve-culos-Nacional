@@ -1,0 +1,172 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+body{
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	background-color: #07889B;
+	color: white;
+}
+h2{
+	font-size: 20pt;
+	margin: 10px;
+}
+p{
+	font-size: 15pt;
+	margin: 10px;
+}
+img#epaco{
+	width: 200px;
+	height: 120px;
+}
+section#corpo{
+	height: 650px;
+}
+
+
+/* MENU FIXO */
+
+.menu{
+	background-color: #66B9BF;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	height: 100px;
+	width: 100vw;
+	border: 1px solid #606060;
+	padding: 0px;
+}
+.li{
+	margin: 30px;
+	font-size: 20pt;
+	background-color: #07889B;
+	text-decoration: none;
+	border: 1px solid white;
+}
+.li:hover{
+	background-color: white;
+	color: #07889B;
+	border: 1px solid;
+	transition: 1s;
+}
+ul#lista{
+	position: absolute;
+	display: flex;
+	width: 100vw;
+	margin-left: 50vw;
+}
+h1{
+	margin: 10px;
+	font-size: 35pt;
+	color: white;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+a#aba:hover{
+	color: #07889B;
+}
+a#ajuda{
+	font-size: 15pt;
+}
+a#ajuda:hover{
+	color: #07889B;
+}
+
+/*  ITEM 1  */
+
+nav#item1{
+	width: 320px;
+	height: 440px;
+	display: block;
+	padding: 0;
+	margin-left: 100px;
+	position: absolute;
+	margin-top: 200px;
+	text-align: center;
+	border: 1px solid white;
+}
+legend{
+	font-size: 20pt;
+}
+button{
+	width: 170px;
+	height: 60px;
+	background-color: #00FF00;
+	font-size: 18pt;
+}
+button:hover{
+	background-color: green;
+}
+
+/*  ITEM 2  */
+
+nav#item2{
+	width: 320px;
+	height: 440px;
+	display: block;
+	padding: 0;
+	margin-left: 100px;
+	position: absolute;
+	margin-top: 200px;
+	text-align: center;
+	border: 1px solid white;
+	margin-left: 500px;
+}
+legend{
+	font-size: 20pt;
+}
+button{
+	width: 170px;
+	height: 60px;
+	background-color: #00FF00;
+	font-size: 18pt;
+}
+button:hover{
+	background-color: green;
+}
+
+/*  ITEM 3  */
+
+nav#item3{
+	width: 320px;
+	height: 440px;
+	display: block;
+	padding: 0;
+	margin-left: 100px;
+	position: absolute;
+	margin-top: 200px;
+	text-align: center;
+	border: 1px solid white;
+	margin-left: 900px;
+}
+legend{
+	font-size: 20pt;
+}
+button{
+	width: 170px;
+	height: 60px;
+	background-color: #00FF00;
+	font-size: 18pt;
+}
+button:hover{
+	background-color: green;
+}
+/*                      rodape                        */
+footer#rodape{
+	clear: both;
+	border-top: 1px solid #606060;
+	margin-bottom: 20px;
+	display: block;
+}
+footer#rodape p{
+	text-align: center;
+}
+a#refe:hover{
+	color: blue;
+}

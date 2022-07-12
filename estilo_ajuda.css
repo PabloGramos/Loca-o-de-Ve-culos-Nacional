@@ -1,0 +1,96 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	background-color: #07889B;
+	font-family: 'DM Mono', monospace;
+	color: white;
+}
+.menu{
+	background-color: #66B9BF;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	height: 100px;
+	width: 100vw;
+	border: 1px solid #606060;
+	padding: 0px;
+	margin-top: 0px;
+}
+.li{
+	margin: 30px;
+	font-size: 20pt;
+	background-color: #07889B;
+	text-decoration: none;
+	border: 1px solid white;
+}
+.li:hover{
+	background-color: white;
+	color: #07889B;
+	border: 1px solid;
+	transition: 1s;
+}
+ul#lista{
+	position: absolute;
+	display: flex;
+	width: 100vw;
+	margin-left: 50vw;
+}
+h1{
+	font-size: 35pt;
+	color: white;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+a#aba:hover{
+	color: #07889B;
+}
+
+/*  AJUDA CORPO  */
+
+
+section#corpo{
+	text-align: center;
+	width: 100vw;
+	height: 400px;
+}
+h2{
+	margin-top: 200px;
+	position: absolute;
+	margin-left: 30vw;
+	font-size: 25pt;
+}
+/* AJUDA */
+aside{
+	text-align: center;
+	height: 1700px;
+}
+h3{
+	margin-top: 60px;
+	font-size: 20pt;
+}
+p{
+	font-size: 14pt;
+	margin: 25px;
+	text-align: justify;
+}
+/*                      rodape                        */
+footer#rodape{
+	clear: both;
+	border-top: 1px solid #606060;
+	margin-bottom: 20px;
+	display: block;
+}
+footer#rodape p{
+	text-align: center;
+}
+a#refe:hover{
+	color: blue;
+}

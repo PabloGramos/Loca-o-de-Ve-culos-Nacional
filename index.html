@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-scale=1.0, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script type="text/javascript" src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<title>Locação de Veículos Nacional</title>
+</head>
+<body>
+	<header>
+	<nav id="abaixo" class="menu">
+		<ul class="clas">
+			<a href="page_heli/page_heli.html"><img class="faixa" src="image/h2.jpg"></a>
+			<a href="page_car/page_car.html"><img class="faixa" src="image/cp1.png"></a>
+			<a href="page_moto/page_moto.html"><img class="faixa" src="image/mf.jpg"></a>
+		</ul>
+	
+	</nav>
+	<nav class="barra">
+	<ul class="fixo">
+		<li><a href="page_heli/page_heli.html">Helicóptero</a></li>
+		<li><a href="page_car/page_car.html">Carro</a></li>
+		<li><a href="page_moto/page_moto.html">Moto</a></li>
+	</ul>
+	</nav>
+	<h1 class="site-title">Locação de Veículos Nacional</h1>
+	</header>
+		<a class="ajuda" href="ajuda.html">Quer Ajuda?</a>
+
+
+
+<section id="corpo">
+<form method="post" id="fContato" action="mailto:contato@alguem.com">
+
+<div>
+	<h1>Alugue seu Veiculo Aqui  <i class="fas fa-car"></i></h1>
+
+	<fieldset id="endereco"><legend>Local de Retirada</legend>
+<p class="lg"><label for="cEst">Estado:</label>
+<select name="test" id="cEst">
+<optgroup label="Região Norte">
+	<option value="">Amazonas</option>
+	<option value="">Acre</option>
+	<option value="">Rondônia</option>
+	<option value="">Roraima</option>
+	<option value="">Amapá</option>
+	<option value="">Pará</option>
+	<option value="">Tocantins</option>
+</optgroup>
+<optgroup label="Região Nordeste">
+	<option value="">Maranhão</option>
+	<option value="">Piauí</option>
+	<option value="">Rio Grande do Norte</option>
+	<option value="">Ceará</option>
+	<option value="">Paraíba</option>
+	<option value="">Bahia</option>
+	<option value="">Pernambuco</option>
+	<option value="">Alagoas</option>
+	<option value="">Sergipe</option>
+</optgroup>
+<optgroup label="Região Centro Oeste">
+	<option value="">Goiás</option>
+	<option value="">Mato Grosso</option>
+	<option value="">Mato Grosso do Sul</option>
+	<option value="">Distrito Federal</option>
+</optgroup>
+<optgroup label="Região Sudeste">
+	<option value="">Minas Gerais</option>
+	<option value="">Espírito Santo</option>
+	<option value="">Rio de Janeiro</option>
+	<option value="">São Paulo</option>
+</optgroup>
+<optgroup label="Região Sul">
+	<option value="">Santa Catarina</option>
+	<option value="">Paraná</option>
+	<option value="">Rio Grande do Sul</option>
+</optgroup>
+</select>
+<label for="cCid">Cidade:</label><input type="tCid" name="cCid" maxlength="40" size="20" placeholder="Sua cidade" list="cidades"> 
+<datalist id="cidades">
+	<option value=""></option>
+	<option value=""></option>
+	<option value=""></option>
+	<option value=""></option>
+</datalist>
+<label for="cLog">Endereço:<input type="text" name="tRua" id="cRua" size="13" maxlength="80" placeholder="rua , av, trav"></label></p>
+</fieldset>
+<fieldset id="horaR"><legend>Horario de Retirada</legend>
+<p class="lg">Dia:<input type="date" name="retD" id="diaR">
+Hora:<input type="time" name="hRet" value="00:00">
+</p>
+</fieldset>
+<fieldset id="horaR"><legend>Horario de Entrega</legend>
+<p class="lg">Dia:<input type="date" name="tData" id="cData">
+Hora:<input type="time" name="hRet" value="00:00">
+</p>
+</fieldset>
+<button id="pesquisar"><a href="page_car/page_car.html">PESQUISAR</a></button>
+</div>
+</form>
+</section>
+
+
+
+	<aside id="lateral">
+		<h2>Conheça Nossas Lojas</h2>
+		<a href="https://www.movida.com.br/" target="_blank"><img class="imglateral" src="image/loja1.jpg"></a>
+		<a href="https://www.alamo.com/pt_BR/car-rental/home.html" target="_blank"><img class="imglateral" src="image/loja2.jpg"></a>
+		<a href="https://www.localizahertz.com/brasil/pt-br" target="_blank"><img class="imglateral" src="image/loja3.jpg"></a>
+		<a href="https://www.hertz-int.com.br/Home.aspx" target="_blank"><img class="imglateral" src="image/loja4.jpg"></a>
+	</aside>
+<footer id="rodape">
+	<p>Copyright &copy; 2020 - by Pablo Vinícius Developer<br>Todos os Direitos Reservados<br>
+	<a href="https://www.facebook.com/profile.php?id=100012555873830&sk=about" target="_blank">Facebook</a> | <a href="https://www.instagram.com/pablovinicius1635/?hl=pt-br" target="_blank">Instagram</a></p>
+</footer>
+</body>
+</html>
